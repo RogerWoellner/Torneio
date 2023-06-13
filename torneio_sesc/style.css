@@ -1,0 +1,298 @@
+/* 
+#eaeaea
+#e6e6e6
+#143149
+#ffc708 
+*/
+
+/* --- RESET --- */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #eaeaea;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/imagens/paint.svg);
+    background-repeat: no-repeat;
+    background-position: right top 20%;
+    background-size: 350px;
+}
+
+
+
+
+
+/* --- HEADER --- */
+
+
+
+.header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #e6e6e6;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
+}
+
+.header {
+    color: #143149;
+}
+
+.header a{
+    margin: .5rem;
+    color: #fff;
+    background-color: #143149;
+    padding: 1rem;
+    border: 2px solid #143149;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    width: 4rem;
+}
+
+.header a:hover{
+    background-color: transparent;
+    color: #143149;
+}
+
+/* --- INDEX --- */
+
+.links{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a{
+    margin: 4rem;
+    color: #fff;
+    background-color: #143149;
+    padding: 1rem;
+    border: 2px solid #143149;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.links a:hover{
+    background-color: transparent;
+    color: #143149;
+}
+
+/* --- CAMPEONATOS --- */
+
+h1{
+    color: #143149;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#section_text{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #143149;
+    font-weight: 900;
+    text-align: left;
+}
+
+.containercamp{
+    margin-top: 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containercamp h2{
+    color: #143149;
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.containercamp a{
+    margin: 2rem;
+    font-size: 1.5rem;
+    background-color: #143149;
+    color: #fff;
+    padding: 1rem;
+    border: 2px solid #143149;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.containercamp a:hover{
+    background-color: transparent;
+    color: #143149;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    justify-content: center;
+}
+
+form{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #143149;
+    justify-content: center;
+}
+
+#js-input-times{
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 5rem;
+    text-align: center;
+    margin-left: .5rem;
+    justify-content: center;
+}
+
+#submitbtn{
+    width: 4rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    background-color: #143149;
+    border: 2px solid #143149;
+    border-radius: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    padding: .2rem;
+    justify-content: center;
+}
+
+#submitbtn:hover{
+    background-color: transparent;
+    color: #143149;
+}
+
+.buttontimes{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    background-color: #143149;
+    border: 2px solid #143149;
+    border-radius: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    padding: .2rem;
+    justify-content: center;
+}
+
+.buttontimes:hover{
+    background-color: transparent;
+    color: #143149;
+}
+
+#containertimes{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+input{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: .2rem;
+    width: 20rem;
+    text-align: center;
+    margin-left: .5rem;
+}
+
+button{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 6rem;
+    background-color: #143149;
+    border: 2px solid #143149;
+    border-radius: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    padding: .2rem;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #143149;
+}
+
+#containertimes{
+    display: flex;
+    align-items: center;
+    width: 50svw;
+    font-size: 20px;
+}
+
+
+/* ---- Torneios ---- */
+
+#containertimes{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.containertorneio{
+    text-align: center;
+}
+
+
+.textotorneio{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #143149;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+#buttontorneio{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 7rem;
+    margin-top: 2rem;
+    width: 12rem;
+    text-align: center;
+    margin-left: 0rem;
+    background-color: #143149;
+    border: 2px solid #143149;
+    border-radius: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    padding: .2rem;
+    height: 7rem;
+}
+
+#buttontorneio:hover{
+    background-color: transparent;
+    color: #143149;
+}
+
+.box-game{
+    margin: 0;
+    padding: .5rem;
+    width: 3rem;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+
+  
+

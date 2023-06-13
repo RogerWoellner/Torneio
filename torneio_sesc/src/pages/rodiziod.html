@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/imagens/logo_sesc.png" type="image/png">
+    <title>Gerador de jogos SESC</title>
+</head>
+<body>
+    <header class="header">
+        <h2>Gerador de jogos</h2>
+        <nav>
+            <a href="/src/pages/campeonatos.html">Campeonatos</a>
+            <a href="/src/pages/torneios.html">Torneios</a>
+        </nav>
+    </header>
+    <h1>Rodízio Duplo</h1>
+    <section id="section_text">
+        O Rodízio Duplo é quando todas as equipes se enfrentam pelo menos duas vezes durante o campeonato.
+    </section>
+    <section class="formulario">
+        <form action="javascript: enviar()">
+            <label for="num-times">
+                Informe a quantidade de times:
+            </label>
+            <input type="number" name="num" id="js-input-times" required>
+            <button type="submit" id="submitbtn">OK!</button>
+        </form>
+    </section>
+
+    <section id="containertimes">
+
+    </section>
+
+    <script src="rodiziod.js"></script>
+</body>
+</html>
